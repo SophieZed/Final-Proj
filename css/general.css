@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-image: url(../img/background-stars.svg);
+  background-image: url('../img/background-stars.svg');
   background-color: #070724;
   background-size: cover;
 
