@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quaries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js" defer></script>
+    <title>The Planets</title>
+  </head>
+  <body>
+    <header class="header grid--2">
+      <div class="logo">
+        <a href="index.html"> <h3>the planets</h3></a>
+      </div>
+      <button class="menu">
+        <img class="menu-icon" src="/img/icon-burger.svg" />
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="list-item">mercury</li>
+          <li class="list-item">venus</li>
+          <li class="list-item">earth</li>
+          <li class="list-item">mars</li>
+          <li class="list-item">jupiter</li>
+          <li class="list-item">saturn</li>
+          <li class="list-item">uranus</li>
+          <li class="list-item">neptune</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside class="menu-bar">
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-1"></div>
+            <div class="menu-planet MERCURY">MERCURY</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-2"></div>
+            <div class="menu-planet VENUS">VENUS</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-3"></div>
+            <div class="menu-planet EARTH">EARTH</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-4"></div>
+            <div class="menu-planet MARS">MARS</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-5"></div>
+            <div class="menu-planet JUPITER">JUPITER</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-6"></div>
+            <div class="menu-planet SATURN">SATURN</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-7"></div>
+            <div class="menu-planet URANUS">URANUS</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+        <div class="menu-item">
+          <a class="menu-btn" href="#"
+            ><div class="round color-8"></div>
+            <div class="menu-planet NEPTUNE">NEPTUNE</div>
+            <div class="arrow"><img class="arrow" src="/img/Arrow.png" /></div
+          ></a>
+        </div>
+      </aside>
+      <div class="main container grid--2">
+        <div class="img-area">
+          <div class="img" id="planet-picture"></div>
+        </div>
+        <div class="info">
+          <h1 class="heading-primary"></h1>
+          <p class="info-text"></p>
+          <p class="source-p">
+            <span class="source"
+              >Source:
+              <a
+                class="source1"
+                href="https://en.wikipedia.org/wiki/Mercury_(planet)"
+              >
+                Wikipedia
+              </a>
+            </span>
+            <img src="/img/icon-source.svg" />
+          </p>
+        </div>
+
+        <div class="btn-area">
+          <button class="btn overview-info">
+            <div class="btn-number">01</div>
+            <div class="btn-name" id="overview">overview</div>
+          </button>
+          <button class="btn structure-info">
+            <div class="btn-number">02</div>
+            <div class="btn-name" id="structure">structure</div>
+          </button>
+          <button class="btn surface-info">
+            <div class="btn-number">03</div>
+            <div class="btn-name" id="surface">surface</div>
+          </button>
+        </div>
+      </div>
+      <section>
+        <div class="info-general container grid">
+          <div class="info-inner">
+            <div class="info-property">rotation time</div>
+            <div class="info-data" id="rotation-days"></div>
+          </div>
+          <div class="info-inner">
+            <div class="info-property">revolution time</div>
+            <div class="info-data" id="revolution-days"></div>
+          </div>
+          <div class="info-inner">
+            <div class="info-property">radius</div>
+            <div class="info-data" id="radius-km"></div>
+          </div>
+          <div class="info-inner">
+            <div class="info-property">average temp.</div>
+            <div class="info-data" id="average-temp"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

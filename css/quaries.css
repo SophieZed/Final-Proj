@@ -1,0 +1,199 @@
+/* Responsive to 896px */
+@media (max-width: 56em) {
+  .info-data {
+    font-size: 3rem;
+  }
+
+  .info-inner {
+    height: 9.6rem;
+  }
+}
+
+/* Responsive to 768px */
+@media (max-width: 48em) {
+  .grid--2 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  nav {
+    max-width: 80%;
+    margin: 1rem auto;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 2.4rem;
+  }
+
+  .logo {
+    justify-self: center;
+  }
+
+  .logo a {
+    margin-left: 0;
+  }
+
+  main .grid--2 {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4.8rem;
+    column-gap: 6.9rem;
+  }
+
+  .img-area {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
+  .info {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .btn-area {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .info-general {
+    margin-top: 2.7rem;
+    gap: 0.8rem;
+  }
+
+  .info-data {
+    font-size: 2rem;
+  }
+
+  .info-inner {
+    height: 9.6rem;
+  }
+  h1 {
+    font-size: 4.8rem;
+    margin-bottom: 2.3rem;
+    text-align: center;
+  }
+
+  .info-text,
+  .source-p {
+    text-align: center;
+  }
+  .info-property {
+    padding-left: 1.5rem;
+  }
+}
+.planet-picture {
+  height: 20rem;
+  width: 20rem;
+}
+
+/* Responsive to 496px */
+@media (max-width: 31em) {
+  main {
+    margin-top: 2rem;
+  }
+
+  .menu {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2.4rem;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .grid--2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logo a {
+    margin-left: 0;
+  }
+
+  main .grid--2 {
+    row-gap: 6.4rem;
+  }
+  /* //////////////////////////////////////////// */
+  .main.active {
+    display: none;
+  }
+  section.active {
+    display: none;
+  }
+  .img-area {
+    display: flex;
+    grid-row: 2;
+    grid-column: 1/3;
+  }
+
+  .info {
+    grid-row: 3;
+    grid-column: 1/3;
+    justify-content: center;
+  }
+
+  .btn-area {
+    grid-row: 1;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  /* BUTTON */
+  .btn-number {
+    display: none;
+  }
+
+  .btn {
+    display: flex;
+    height: 4.8rem;
+    border: none;
+    letter-spacing: 0.18rem;
+  }
+
+  .btn:hover,
+  .btn:visited {
+    background-color: transparent;
+  }
+
+  .btn-active {
+    background-color: transparent;
+    border-bottom: 4px solid #419ebb;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-general {
+    grid-template-columns: 1fr;
+  }
+
+  .info-inner {
+    padding: 0 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    height: 4.8rem;
+  }
+
+  .info-property,
+  .info-data {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  .planet-picture {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  /* MOBILE Navigation */
+
+  /* "menu-open" class to "menu-bar" to open menu */
+  .menu-bar.menu-open {
+    display: block;
+  }
+}

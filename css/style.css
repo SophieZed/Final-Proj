@@ -1,0 +1,183 @@
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: sticky;
+}
+
+.header li {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+
+  font-size: 1.1rem;
+}
+
+.menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.menu-icon {
+  width: 2.4rem;
+}
+
+.logo a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.8rem;
+  margin-top: 2.2rem;
+  margin-left: 3.2rem;
+  margin-bottom: 2.7rem;
+}
+
+.main {
+  grid-template-columns: 7fr 3fr;
+  position: relative;
+}
+
+.img-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1/3;
+}
+
+.img {
+  width: 29rem;
+  height: 29rem;
+}
+
+.info {
+  grid-column: 2;
+  grid-row: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.source,
+.source a {
+  color: #fff;
+  opacity: 0.5;
+  font-family: "Spartan", sans-serif;
+}
+
+/* INFO */
+.info-general {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 5.6rem;
+  gap: 3rem;
+  margin-top: 8.7rem;
+}
+
+.info-inner {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1px;
+  height: 12.8rem;
+}
+
+.info-property {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 2rem;
+  padding-left: 2.3rem;
+}
+
+.info-data {
+  font-family: "Antonio";
+  font-size: 4rem;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 0.4rem;
+  padding-left: 2.3rem;
+}
+
+/* MENU-BAR */
+.menu-bar {
+  display: none;
+  max-width: 49.6rem;
+  height: 100vh;
+  position: static;
+}
+
+.menu-item {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.menu-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.round {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.color-1 {
+  background-color: #def4fc;
+}
+
+.color-2 {
+  background-color: #f7cc7f;
+}
+
+.color-3 {
+  background-color: #545bfe;
+}
+
+.color-4 {
+  background-color: #ff6a45;
+}
+
+.color-5 {
+  background-color: #ecad7a;
+}
+
+.color-6 {
+  background-color: #fccb6b;
+}
+
+.color-7 {
+  background-color: #65f0d5;
+}
+
+.color-8 {
+  background-color: #497efa;
+}
+
+.menu-planet {
+  font-family: "Spartan", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.arrow {
+  margin-left: auto;
+}
+
+.geology-pic {
+  height: 10rem;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.planet-picture {
+  height: 30rem;
+  width: 30rem;
+}
